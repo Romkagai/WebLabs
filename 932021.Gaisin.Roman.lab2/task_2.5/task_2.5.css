@@ -1,0 +1,16 @@
+.upperBlock {
+    background: green;
+    color: white;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.fatBlock {
+    background: blue;
+    color: white;
+    width: 500px;
+    margin: auto;
+    
+    padding: 30px 50px 30px 50px;
+}

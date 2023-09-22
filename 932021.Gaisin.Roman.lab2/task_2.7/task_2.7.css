@@ -1,0 +1,58 @@
+.staticDiv_blueviolet {
+    position: static;
+    background: blueviolet;
+    color: white;
+    width: 150px;
+    height: 100px;
+}
+
+.relativeDiv_darkred {
+    position: relative;
+    background: darkred;
+    color: white;
+    width: 150px;
+    height: 100px;
+}
+
+.relativeDiv_peru {
+    position: relative;
+    background: peru;
+    color: white;
+    width: 150px;
+    height: 100px;
+    
+    bottom: 30px;
+    left: 30px;
+
+}
+
+.relativeDiv_indianred {
+    position: relative;
+    background: indianred;
+    color: white;
+    width: 600px;
+    height: 400px;
+
+}
+
+.absoluteDiv_indigo {
+    position: absolute;
+    background: indigo;
+    color: white;
+    width: 300px;
+    height: 200px;
+    top: 120px;
+    right: 0;
+
+}
+
+.fixedDiv_forestgreen {
+    position: fixed;
+    background: forestgreen;
+    color: white;
+    width: 100px;
+    height: 100px;
+    right: 0;
+    bottom: 0;
+
+}

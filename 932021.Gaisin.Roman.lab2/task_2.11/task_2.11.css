@@ -1,0 +1,9 @@
+.content {
+    border: 1px solid green;
+    background: aqua;
+    display: inline-block;
+}
+
+img {
+    float: right;
+}

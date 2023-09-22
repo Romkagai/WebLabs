@@ -1,0 +1,11 @@
+.content {
+    background: blue;
+    color: white;
+    width: 600px;
+    margin: auto;
+}
+
+img {
+    float: right;
+    margin: 0 0 15px 15px;
+}

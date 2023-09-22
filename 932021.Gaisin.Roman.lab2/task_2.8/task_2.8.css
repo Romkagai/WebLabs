@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+.main_container {
+    background: aqua;
+    margin: 10px;
+}
+
+.list_container {
+    background: bisque;
+    float: left;
+    width: 200px;
+}
+
+.content_container {
+    background: darkgray;
+    margin-left: 200px;
+}
+
+.fixed_container {
+    background: limegreen;
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    height: 70px;
+}

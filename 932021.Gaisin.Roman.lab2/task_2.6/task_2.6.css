@@ -1,0 +1,12 @@
+.upperBlock {
+    width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.fatBlock {
+    border: 10px solid blue;
+    width: 380px;
+    margin: auto;
+    padding: 50px;
+}

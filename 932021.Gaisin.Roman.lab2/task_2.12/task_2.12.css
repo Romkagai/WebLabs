@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+.main_container {
+    background: aqua;
+    margin: 10px;
+    border: 1px solid green;
+    display: inline-block;
+}
+
+.list_container {
+    background: bisque;
+    float: left;
+    width: 25%;
+}
+
+.content_container {
+    background: darkgray;
+    margin-left: auto;
+    width: 75%;
+    min-width: 360px;
+    float: left;
+}

@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.main_container {
+    background: aqua;
+    margin: 10px;
+    border: 1px solid green;
+    display: inline-block;
+}
+
+.list_container {
+    background: bisque;
+    float: left;
+    width: 25%;
+}
+
+.content_container {
+    background: darkgray;
+    width: 75%;
+    float: left;   
+}
+
+.clear_text {
+    clear: both;
+}
+
+img {
+    float: right;
+    width: 50%;
+}

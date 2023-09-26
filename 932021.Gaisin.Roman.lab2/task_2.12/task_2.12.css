@@ -17,8 +17,8 @@ body {
 
 .content_container {
     background: darkgray;
-    margin-left: auto;
-    width: 75%;
+    margin-left: 0.5%;
+    width: 74%;
     min-width: 360px;
-    float: left;
+    float: left;   
 }

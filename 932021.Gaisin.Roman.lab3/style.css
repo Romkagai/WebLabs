@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: green;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+
+footer {
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+.main_container {
+    margin: auto;
+    display: flex;
+    max-width: 800px;
+    flex: 1 0 auto;
+}
+
+.left_part {
+    background: red;
+    color: white;
+    min-width: 200px;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.left_part > p {
+    text-decoration: underline;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.left_part > p:hover {
+    background: green;
+}
+
+.right_part {
+    padding: 20px;
+    text-align: justify;
+    font-weight: 100;
+    line-height: 1.3em;
+}
+
+.right_part::first-letter {
+    color: red;
+    font-size: 30px;
+}
+
+::selection {
+    background: green;
+    color: white;
+}

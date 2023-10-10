@@ -1,30 +1,44 @@
-html, body {
+body, html {
     margin: 0;
     font-family: sans-serif;
     font-weight: 100;
-}
-
-.content {
-    display: flex;
     background: #edeef0;
-
+}
+/*Основная часть страницы*/
+.content {
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    max-width: 1100px;
 }
 
+/*Левое меню*/
 .left_menu {
     width: 200px;
-    text-align: left;
-    padding-top: 15px;
-    float: left;
+    margin-top: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
+.left_menu > p {
+    color: #507299;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.left_menu > p:hover {
+    background-color: #e1e5eb;
+}
+
+/*Центральная колонка с постами*/
 .central_column {
     margin: 10px auto; 
 }
 
+/*Правая колонка со второстепенными постами*/
 .right_column {
-    margin-left: 190px;
+    margin-top: 10px;
+    margin-left: 65px;
     float: left;
     flex-grow: 1;
 }
@@ -33,19 +47,16 @@ html, body {
     position: fixed;
 }
 
+/*Пост главной колонки*/
 .post {
     background: white;
     width: 460px;
     height: auto;
     margin-top: 10px;
     margin-bottom: 20px;
-
     border: 1px solid #d0d0d0;
-
     text-align: justify;
-
     border-radius: 15px;
-
     padding: 20px;
 }
 
@@ -58,13 +69,16 @@ html, body {
     padding-bottom: 10px;
 }
 
+.post_text::selection {
+    background:#edeef0;
+    color:green;
+}
+
 .post_header {
     border-bottom: 3px solid #d0d0d0;
     background: white;
-    
-    margin-bottom: 10px;
     padding-bottom: 10px;
-
+    margin-bottom: 10px;
     margin-left: -20px;
     margin-right: -20px;
 }
@@ -79,8 +93,9 @@ html, body {
     margin: 0px 0px 15px 0px;
 }
 
-.post_reaction > span {
+.post_reaction > a {
     color: #2e5473;
+    text-decoration: none;
 }
 
 .like {
@@ -90,25 +105,38 @@ html, body {
 
 .comment {
     padding-top: 4px;
-
     float: right;
     text-align: right;
 }
 
+/*Пост второстепенной колонки*/
 .secondary_post {
     background: white;
     width: 160px;
-    height: 160px;
+    height: auto;
     margin-top: 10px;
     margin-bottom: 20px;
-
     border: 1px solid #d0d0d0;
-
     border-radius: 10px;    
 }
 
+.secondary_post_header {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px
+}
+
+.secondary_post > p {
+    background: #edeef0;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 header {
-    background: #507299;   
+    background: #507299;
+    padding-top: 7px; 
+    padding-bottom: 4px;
+    padding-left: 10%;  
 }
 
 footer {
@@ -116,4 +144,35 @@ footer {
     background: white;
     text-align: center;
     padding: 5px;
+}
+
+@media (max-width: 1000px)
+{
+    .right_column {
+		display: none;
+	}
+}
+
+@media (max-width: 740px)
+{
+	.content {
+		display: block;
+	}
+	
+	.left_menu {
+		width: 80%;
+		margin-left: auto;
+        margin-right: 40px;
+	}
+		
+	.left_menu > p {
+		display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+	
+	.post {
+        margin-left: auto;
+        margin-right: auto;
+	}
 }

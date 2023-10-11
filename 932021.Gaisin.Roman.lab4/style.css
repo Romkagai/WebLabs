@@ -136,7 +136,9 @@ header {
     background: #507299;
     padding-top: 7px; 
     padding-bottom: 4px;
-    padding-left: 10%;  
+    padding-left: 10%;
+    position: sticky;
+    top: 0px;
 }
 
 footer {

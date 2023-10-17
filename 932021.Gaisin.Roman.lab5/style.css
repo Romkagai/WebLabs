@@ -1,0 +1,47 @@
+body, html {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.news_element {
+    background: #b6f5f5;
+    border-bottom: 2px black solid;
+
+    width: 900px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 10px 20px 15px 20px;
+
+    box-shadow: 0px 0px 5px 0px #000000;
+}
+
+.central_button {
+    text-align: center;
+}
+
+.central_button > button {
+    background: linear-gradient(to bottom, #00f500, #008f00);
+    color: white;
+    border: 0px;
+
+    box-shadow: 0px 0px 5px 0px #000000;
+
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+
+.news_element:hover {
+    background: #ff5555;
+}
+
+.popup_window {
+    display: block;
+    width: 535px;
+    height: auto;
+    background-color: #e2f971;
+    text-align: center;
+    position: fixed;
+    
+}

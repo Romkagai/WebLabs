@@ -6,14 +6,10 @@ body, html {
 .news_element {
     background: #b6f5f5;
     border-bottom: 2px black solid;
-
     width: 900px;
-
     margin-left: auto;
     margin-right: auto;
-
     padding: 10px 20px 15px 20px;
-
     box-shadow: 0px 0px 5px 0px #000000;
 }
 
@@ -25,9 +21,7 @@ body, html {
     background: linear-gradient(to bottom, #00f500, #008f00);
     color: white;
     border: 0px;
-
     box-shadow: 0px 0px 5px 0px #000000;
-
     padding: 5px 15px;
     margin-top: 10px;
 }
@@ -41,10 +35,22 @@ body, html {
     width: 535px;
     height: auto;
     background-color: #e2f971;
-    text-align: center;
     position: fixed;
-
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
+    padding: 0px 15px 15px 15px; 
+}
+
+.popup_window > h1 {
+    text-align: center;
+}
+
+.popup_overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

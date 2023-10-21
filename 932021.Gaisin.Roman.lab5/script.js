@@ -1,26 +1,28 @@
 function openPopup(popupId) {
-
     var content = document.getElementById("content");
     content.style.opacity = 0.5;
 
     var popup = document.getElementById(popupId);
     popup.style.display = "block";
 
-    // Закрываем окно при клике в любом месте
-    popup.onclick = function() {
+    var popup_overlay = document.getElementById("popup_overlay")
+    popup_overlay.style.display = "block";
+
+    popup_overlay.addEventListener("click", function() {
         popup.style.display = "none";
+        popup_overlay.style.display = "none";
         content.style.opacity = 1;
-    };
+    });
 }
 
-document.getElementById("openPopup1").addEventListener("click", function() {
+document.getElementById("open_popup_1").addEventListener("click", function() {
     openPopup("popup_1");
 });
 
-document.getElementById("openPopup2").addEventListener("click", function() {
-    openPopup("popup2");
+document.getElementById("open_popup_2").addEventListener("click", function() {
+    openPopup("popup_2");
 });
 
-document.getElementById("openPopup3").addEventListener("click", function() {
-    openPopup("popup3");
+document.getElementById("open_popup_3").addEventListener("click", function() {
+    openPopup("popup_3");
 });

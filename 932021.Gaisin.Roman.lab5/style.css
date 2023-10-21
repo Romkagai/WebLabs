@@ -37,11 +37,14 @@ body, html {
 }
 
 .popup_window {
-    display: block;
+    display: none;
     width: 535px;
     height: auto;
     background-color: #e2f971;
     text-align: center;
     position: fixed;
-    
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
 }

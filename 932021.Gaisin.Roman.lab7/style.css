@@ -1,0 +1,24 @@
+.canvas {
+    width: 1900px;
+    height: 800px;
+    margin-top: 20px;
+}
+
+.square {
+    position: absolute;
+    background-color: red;
+    border: 1px solid black;
+    opacity: 0.85;
+}
+
+.triangle {
+    position: absolute;
+    opacity: 0.85;
+}
+
+.circle {
+    position: absolute;
+    background-color: green;
+    border: 1px solid black;
+    opacity: 0.85;
+}

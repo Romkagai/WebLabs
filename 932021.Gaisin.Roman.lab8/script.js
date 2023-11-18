@@ -16,7 +16,6 @@ function raiseElement(element) {
     const previousElement = element.previousElementSibling;
     if (previousElement) {
         element.parentNode.insertBefore(element, previousElement);
-        UpdateElements();
     }
 }
 
@@ -24,21 +23,11 @@ function lowerElement(element) {
     const nextElement = element.nextElementSibling;
     if (nextElement) {
         element.parentNode.insertBefore(nextElement, element);
-        UpdateElements();
     }
 }
 
 function deleteElement(element) {
     element.parentNode.removeChild(element);
-}
-
-function UpdateElements() {
-    elements = [];
-    document.querySelectorAll('.element').forEach(element => {
-        const name = element.querySelector('.name').value;
-        const number = element.querySelector('.number').value;
-        elements.push({ name, number });
-    })
 }
 
 function saveElements() {

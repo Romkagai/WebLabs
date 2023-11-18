@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Practice 10</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <table>
+        <tr>
+          <td colspan="5">
+            <div class="output">
+              <div id="secondNumber"></div>
+              <div id="operation"></div>
+              <div id="firstNumber"></div>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><button onclick="addNumber(7)">7</button></td>
+          <td><button onclick="addNumber(8)">8</button></td>
+          <td><button onclick="addNumber(9)">9</button></td>
+          <td><button onclick="addOperation('/')">/</button></td>
+          <td><button onclick="clearLine()">С</button></td>
+        </tr>
+
+        <tr>
+          <td><button onclick="addNumber(4)">4</button></td>
+          <td><button onclick="addNumber(5)">5</button></td>
+          <td><button onclick="addNumber(6)">6</button></td>
+          <td><button onclick="addOperation('*')">*</button></td>
+          <td><button onclick="deleteLastSymbol()">←</button></td>
+        </tr>
+
+        <tr>
+          <td><button onclick="addNumber(1)">1</button></td>
+          <td><button onclick="addNumber(2)">2</button></td>
+          <td><button onclick="addNumber(3)">3</button></td>
+          <td><button onclick="addOperation('-')">-</button></td>
+          <td rowspan="2"><button onclick="calculate()">=</button></td>
+        </tr>
+
+        <tr>
+          <td colspan="2"><button onclick="addNumber(0)">0</button></td>
+          <td><button onclick="addPoint()">.</button></td>
+          <td><button onclick="addOperation('+')">+</button></td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

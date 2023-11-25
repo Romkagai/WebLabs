@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Task 10</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<img src="images/wizard.png" id="wizard" alt="wizard">
+	<img src="images/hat.png" id="hat" alt="hat">
+	<img src="images/dove.png" id="trigger" alt="dove" style="bottom: 25vh;">
+	<div id="trigger_zone" onclick="makeTrick()"></div>
+	<img src="images/lamp.jpg" alt="lamp" id="lamp">
+	<div id="light" style="opacity: 0;"></div>
+	<img src="images/lamp_upper_part.png" alt="lamp_upper" id="lamp_upper" onmousedown="switchLamp(200, 3, 0.5)"
+		onmouseup="switchLamp(200, -3, 0)">
+	<img src="images/lamp_rope.png" alt="lamp_rope" id="lamp_rope">
+	<img src="images/curtain.png" alt="curtain" id="curtain" onclick="moveFromBottom(101, 1000, 'curtain')"
+		onmouseover="moveFromBottom(5, 200, 'curtain')" onmouseout="moveFromBottom(0, 200, 'curtain')">
+	<script src="sricpt.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+* {
+	margin: 0px;
+	overflow: hidden;
+}
+
+body {
+	background-color: black;
+}
+
+#curtain {
+	position: fixed;
+	bottom: 0vh;
+	height: 100vh;
+	width: auto;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	z-index: 10;
+}
+
+#wizard {
+	position: fixed;
+	height: 25vh;
+	width: auto;
+	bottom: 5vh;
+	left: 50%;
+	transform: translate(-100%, 0%);
+	opacity: 0;
+	z-index: 1;
+}
+
+#hat {
+	position: fixed;
+	height: 16vh;
+	width: auto;
+	bottom: 10vh;
+	left: 50%;
+	transform: translate(-10%, 0%);
+	opacity: 0;
+	z-index: 1;
+}
+
+#trigger {
+	position: fixed;
+	height: 8vh;
+	width: auto;
+	left: 50%;
+	transform: translate(60%, 0%);
+	opacity: 0;
+	z-index: 0;
+}
+
+#trigger_zone {
+	position: fixed;
+	height: 10vh;
+	width: 12vh;
+	bottom: 25vh;
+	left: 50%;
+	transform: translate(50%, 0%);
+	z-index: 5;
+}
+
+#lamp {
+	position: fixed;
+	height: 30vh;
+	width: auto;
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	z-index: 1;
+}
+
+#lamp_rope {
+	position: fixed;
+	height: 30vh;
+	width: auto;
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	z-index: 2;
+}
+
+#lamp_upper {
+	position: fixed;
+	height: 30vh;
+	width: auto;
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	z-index: 4;
+}
+
+#light {
+	position: fixed;
+	height: 10vh;
+	width: 5vh;
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%, -30%);
+	border: 40vh solid transparent;
+	border-bottom: 90vh solid yellow;
+	z-index: 3;
+}

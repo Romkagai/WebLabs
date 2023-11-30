@@ -1,0 +1,24 @@
+@using _932021.Gaisin.Roman.lab11
+@{
+    var calculatorModel = ViewData["CalculatorDataModel"] as CalculatorDataModel;
+}
+
+<h1>PassUsingViewData</h1>
+<div class="calculations">
+    <b>
+        Rand Value First: @calculatorModel.FirstValue<br>
+        Rand Value Second: @calculatorModel.SecondValue<br>
+    </b>
+
+    <b>Add :</b><br>
+    @calculatorModel.FirstValue + @calculatorModel.SecondValue = @calculatorModel.addition<br>
+
+    <b>Sub :</b><br>
+    @calculatorModel.FirstValue - @calculatorModel.SecondValue = @calculatorModel.subtraction<br>
+
+    <b>Mult :</b><br>
+    @calculatorModel.FirstValue * @calculatorModel.SecondValue = @calculatorModel.multiplication<br>
+
+    <b>Div :</b><br>
+    @calculatorModel.FirstValue / @calculatorModel.SecondValue = @calculatorModel.division<br>
+</div>

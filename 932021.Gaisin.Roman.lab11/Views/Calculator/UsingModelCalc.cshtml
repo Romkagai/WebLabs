@@ -1,0 +1,22 @@
+@using _932021.Gaisin.Roman.lab11
+@model CalculatorDataModel
+
+<h1>PassUsingModel</h1>
+<div class="calculations">
+    <b>
+        Rand Value First: @Model.FirstValue<br>
+        Rand Value Second: @Model.SecondValue<br>
+    </b>
+
+    <b>Add :</b><br>
+    @Model.FirstValue + @Model.SecondValue = @Model.addition<br>
+
+    <b>Sub :</b><br>
+    @Model.FirstValue - @Model.SecondValue = @Model.subtraction<br>
+
+    <b>Mult :</b><br>
+    @Model.FirstValue * @Model.SecondValue = @Model.multiplication<br>
+
+    <b>Div :</b><br>
+    @Model.FirstValue / @Model.SecondValue = @Model.division<br>
+</div>

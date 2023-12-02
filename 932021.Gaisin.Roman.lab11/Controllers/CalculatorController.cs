@@ -1,6 +1,4 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using _932021.Gaisin.Roman.lab11.Models;
 
 namespace _932021.Gaisin.Roman.lab11.Controllers;
 

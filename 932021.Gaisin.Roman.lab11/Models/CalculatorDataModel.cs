@@ -1,6 +1,3 @@
-using System;
-using System.Runtime.Serialization;
-
 namespace _932021.Gaisin.Roman.lab11
 {
     public class CalculatorDataModel

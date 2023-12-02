@@ -1,25 +1,25 @@
 @using _932021.Gaisin.Roman.lab11
 @inject ICalculatorDataService CalculatorDataService
 @{
-    var calculatorDataModel = CalculatorDataService.dataModel;
+    var СalculatorDataModel = CalculatorDataService.dataModel;
 }
 
 <h1>AccesServiceDirectly</h1>
 <div>
     <b>
-        Rand Value First: @calculatorDataModel.FirstValue<br>
-        Rand Value Second: @calculatorDataModel.SecondValue<br>
+        Rand Value First: @СalculatorDataModel.FirstValue<br>
+        Rand Value Second: @СalculatorDataModel.SecondValue<br>
     </b>
 
     <b>Add :</b><br>
-    @calculatorDataModel.FirstValue + @calculatorDataModel.SecondValue = @calculatorDataModel.addition<br>
+    @СalculatorDataModel.FirstValue + @СalculatorDataModel.SecondValue = @СalculatorDataModel.addition<br>
 
     <b>Sub :</b><br>
-    @calculatorDataModel.FirstValue - @calculatorDataModel.SecondValue = @calculatorDataModel.subtraction<br>
+    @СalculatorDataModel.FirstValue - @СalculatorDataModel.SecondValue = @СalculatorDataModel.subtraction<br>
 
     <b>Mult :</b><br>
-    @calculatorDataModel.FirstValue * @calculatorDataModel.SecondValue = @calculatorDataModel.multiplication<br>
+    @СalculatorDataModel.FirstValue * @СalculatorDataModel.SecondValue = @СalculatorDataModel.multiplication<br>
 
     <b>Div :</b><br>
-    @calculatorDataModel.FirstValue / @calculatorDataModel.SecondValue = @calculatorDataModel.division<br>
+    @СalculatorDataModel.FirstValue / @СalculatorDataModel.SecondValue = @СalculatorDataModel.division<br>
 </div>

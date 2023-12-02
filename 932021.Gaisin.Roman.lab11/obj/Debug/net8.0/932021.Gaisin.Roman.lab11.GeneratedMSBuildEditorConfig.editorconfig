@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\roman\Desktop\Учеба\WebLabs\932021.Gaisin.Roman.lab11
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/roman/Desktop/Учеба/WebLabs/932021.Gaisin.Roman.lab11/Views/Calculator/AccessServiceDirectly.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsY3VsYXRvclxBY2Nlc3NTZXJ2aWNlRGlyZWN0bHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/roman/Desktop/Учеба/WebLabs/932021.Gaisin.Roman.lab11/Views/Calculator/UsingModelCalc.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsY3VsYXRvclxVc2luZ01vZGVsQ2FsYy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

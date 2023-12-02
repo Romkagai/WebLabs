@@ -8,7 +8,6 @@ namespace _932021.Gaisin.Roman.lab11
         private readonly Random rnd = new Random();
         public int FirstValue;
         public int SecondValue;
-
         public int addition;
         public int subtraction;
         public int multiplication;
@@ -27,7 +26,7 @@ namespace _932021.Gaisin.Roman.lab11
             {
                 division = (FirstValue / SecondValue).ToString();
             }
-            else 
+            else
             {
                 division = "Error";
             }

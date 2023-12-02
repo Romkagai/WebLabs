@@ -30,7 +30,7 @@ public class CalculatorController : Controller
         return View();
     }
 
-    public IActionResult ServiceInjectionCalc()
+    public IActionResult AccessServiceDirectly()
     {
         return View();
     }

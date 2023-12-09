@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("932021.Gaisin.Roman.lab11")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ed5b97b88529b5e7dc2563d9d2e68e14f3cd9b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("932021.Gaisin.Roman.lab11")]
 [assembly: System.Reflection.AssemblyTitleAttribute("932021.Gaisin.Roman.lab11")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
